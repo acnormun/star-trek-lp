@@ -1,5 +1,5 @@
-@import url('/assets/css/reset.css');
-@import url('/assets/css/global.css');
+@import url('./reset.css');
+@import url('./global.css');
 
 body {
   background-color: var(--primary-color);
@@ -7,7 +7,7 @@ body {
  
  body::before {
   content: "";
-  background-image: url('/assets/images/icons/star-fleet-1.jpg');
+  background-image: url('../images/icons/star-fleet-1.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -154,17 +154,17 @@ Hover Animation
 }
 
 body#st-1-hovered::before {
-  background-image: url('/assets/images/icons/seriesEFilmes.jpg');
+  background-image: url('../images/icons/seriesEFilmes.jpg');
   filter: grayscale(100%);
 }
 
 body#st-2-hovered::before {
-  background-image: url('/assets/images/icons/tripulation.jpg');
+  background-image: url('../images/icons/tripulation.jpg');
   filter: grayscale(100%);
 }
 
 body#st-3-hovered::before {
-  background-image: url('/assets/images/icons/ships.jpg');
+  background-image: url('../images/icons/ships.jpg');
   filter: grayscale(100%);
 }
 
