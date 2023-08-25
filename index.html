@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/home-page-style.css">
+  <script src="./assets/scripts/script.js"></script>
+  <title>Star Trek</title>
+</head>
+<body>
+  <nav class="s-menu">
+    <ul>
+      <li class="s-menu__item">
+        <a href="/index.html">Página Inicial</a>
+      </li>
+      <li class="s-menu__item">
+        <a href="/assets/pages/series1.html">Séries&Filmes</a>
+      </li>
+      <li class="s-menu__item s-menu__icon">
+        <img src="./assets/images/icons/star-trek-command.svg" alt="Star Trek">
+      </li>
+      <li class="s-menu__item">
+        <a href="#">Tripulação</a>
+      </li>
+      <li class="s-menu__item">
+        <a href="#">Naves</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="s-container">
+    <div class="s-cards-carousel" style="transform: translateZ(-40vw) rotateY(0deg);">
+      <a href="/assets/pages/series1.html" class="s-card" id="st-1">
+        <img class="s-card__background" src="./assets/images/icons/background--yellow.webp">
+        <img class="s-card__image" src="./assets/images/icons/kisspng-james-t-kirk-star-trek-the-original-series-starf-5b57b4326380c0.0434583115324744184076.png" alt="Filmes e Séries">
+        <h2 class="s-card__title">Séries&Filmes</h2>
+      </a>
+      <a href="/assets/pages/tripulacao.html" class="s-card" id="st-2">
+        <img class="s-card__background" src="./assets/images/icons/background--blue.png">
+        <img class="s-card__image" src="./assets/images/icons/spock.png" alt="Tripulação">
+        <h2 class="s-card__title">Tripulação</h2>
+      </a>
+      <a href="#" class="s-card" id="st-3">
+        <img class="s-card__background" src="./assets/images/icons/background--red.png">
+        <img class="s-card__image" src="./assets/images/icons/Rescue_Team_Uhura_Head.png" alt="Naves">
+        <h2 class="s-card__title">Naves</h2>
+      </a>
+    </div>
+  </div>
+
+  <div class="s-controller">
+    <div id="1" onclick="selectCarouselItem(this)" class="s-controller__button s-controller__button--active">
+      01
+    </div>
+    <div id="2" onclick="selectCarouselItem(this)" class="s-controller__button">
+      02
+    </div>
+    <div id="3" onclick="selectCarouselItem(this)" class="s-controller__button">
+      03
+    </div>
+    <div class="s-controller__line"></div>
+  </div>
+
+</body>
+</html>

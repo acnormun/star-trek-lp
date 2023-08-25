@@ -1,0 +1,76 @@
+{
+    "tripulation": [
+        {
+            "id": "1",
+            "name": "James Tiberius Kirk",
+            "origin": "Iowa, United States, Earth",
+            "title": "Cadet / Lieutenant / Commander / Captain / Admiral",
+            "position" : "Commanding officer",
+            "race": "Human",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Star_Trek_William_Shatner.JPG/220px-Star_Trek_William_Shatner.JPG"
+        },
+        {
+            "id": "2",
+            "name": "Spock",
+            "origin": "Vulcan",
+            "title": "Ensign / Lieutenant / Lieutenant commander / Commander / Captain / Ambassador",
+            "position" : "Second officer/Science officer / Executive officer / Commanding officer / Federation Ambassador-at-Large",
+            "race": "Vulcan",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Leonard_Nimoy_as_Spock_1967.jpg/220px-Leonard_Nimoy_as_Spock_1967.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Nyota Uhura",
+            "origin": "Lake Simbi Nyaima, Kenya, Earth",
+            "title": "Captain / Fleet Captain / Admiral (Alternate Universe)",
+            "position" : "Linguistics / Cryptographer / Philologist",
+            "race": "Human",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Nichelle_Nichols%2C_NASA_Recruiter_-_GPN-2004-00017.jpg/220px-Nichelle_Nichols%2C_NASA_Recruiter_-_GPN-2004-00017.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Hikaru Sulu",
+            "origin": "Earth",
+            "title": "Lieutenant / Commander / Captain",
+            "position" : "Official",
+            "race": "Human",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/George_Takei_Sulu_Star_Trek.JPG/200px-George_Takei_Sulu_Star_Trek.JPG"
+        },
+        {
+            "id": "5",
+            "name": "Christopher Pike",
+            "origin": "California, United States, Earth",
+            "title": "Lieutenant / Commander / Captain",
+            "position" : "Commanding officer",
+            "race": "Human",
+            "photo": "https://upload.wikimedia.org/wikipedia/en/e/ed/Christopher_pike.jpg?20050525010844"
+        },
+        {
+            "id": "6",
+            "name": "Data",
+            "origin": "Omicron Theta",
+            "title": "Chief Operations Officer / Second Officer",
+            "position" : "Chief Operations Officer",
+            "race": "Synthetic life form with artificial intelligence",
+            "photo": "https://upload.wikimedia.org/wikipedia/en/0/09/DataTNG.jpg"
+        },
+        {
+            "id": "7",
+            "name": "Sarek",
+            "origin": "Vulcan",
+            "title": "Vulcan astrophysicist/",
+            "position" : "-",
+            "race": "Vulcan",
+            "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Spock_and_parents_1968.jpg/220px-Spock_and_parents_1968.jpg"
+        },
+        {
+            "id": "7",
+            "name": "Una Chin-Riley",
+            "origin": "-",
+            "title": "Lieutenant commander",
+            "position" : "USS Enterprise executive officer",
+            "race": "Illyrian",
+            "photo": "https://upload.wikimedia.org/wikipedia/en/8/8e/Number_One_Star_Trek.jpg"
+        }
+    ]
+}
